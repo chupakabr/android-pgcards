@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Planning Game Cards</string>
+    
+    <string name="item1">1</string>
+    <string name="item2">2</string>
+    <string name="item3">3</string>
+    <string name="item4">5</string>
+    <string name="item5">8</string>
+    <string name="item6">13</string>
+    <string name="item7">21</string>
+    <string name="item8">34</string>
+    
+    <string name="exit">Quit</string>
+    <string name="select_card">Select a card</string>
+</resources>

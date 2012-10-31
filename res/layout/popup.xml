@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:myapp="ru.chupakabr.dev.android.PGCards"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/dlg_popup"
+  android:background="#000000"
+  android:gravity="center"
+  >
+
+</TableLayout>

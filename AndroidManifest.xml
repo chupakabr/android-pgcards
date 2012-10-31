@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="ru.chupakabr.dev.android.pgcards"
+      android:versionCode="1"
+      android:versionName="1.0">
+    
+    <uses-sdk android:minSdkVersion="7" />  <!-- Anroid 2.1+ -->
+    
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".PGCards"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+		<!-- The application's publisher ID assigned by AdMob --> 
+		<meta-data android:value="TODO YOUR ADMOB ID" android:name="ADMOB_PUBLISHER_ID" /> 
+        
+		<!-- AdMobActivity definition --> 
+		<activity android:name="com.admob.android.ads.AdMobActivity"  
+        		android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+		        android:configChanges="orientation|keyboard|keyboardHidden" /> 
+		 
+		<!-- Track Market installs -->           
+		<receiver android:name="com.admob.android.ads.analytics.InstallReceiver" android:exported="true"> 
+	        <intent-filter> 
+		        <action android:name="com.android.vending.INSTALL_REFERRER" /> 
+		    </intent-filter> 
+		</receiver> 
+
+    </application>
+
+    <!-- AdMob -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest> 

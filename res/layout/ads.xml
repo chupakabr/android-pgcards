@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout 
+        xmlns:android="http://schemas.android.com/apk/res/android"  
+        xmlns:pgcards="http://schemas.android.com/apk/res/ru.chupakabr.dev.android.pgcards"  
+        android:orientation="vertical"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"
+        > 
+
+    <com.admob.android.ads.AdView  
+            android:id="@+id/adtest" 
+            android:layout_width="fill_parent"  
+            android:layout_height="wrap_content"  
+            pgcards:backgroundColor="#000000"  
+            pgcards:primaryTextColor="#FFFFFF"  
+            pgcards:secondaryTextColor="#CCCCCC" 
+            />
+</LinearLayout>

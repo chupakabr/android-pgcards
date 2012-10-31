@@ -1,0 +1,13 @@
+=TODO
+
+v1.0
++ Hardcoded numbers: 1, 2, 3, 5, 8, 13, 21, 34
++ Nice horizontal view - keep portrait orientation always
++ Check connection in Async task every 2 min
+
+v1.1
+- Configurable numbers
+
+v2.0
+- Could select both number and custom images
+- Vary items that could be displayed
